@@ -1,0 +1,253 @@
+.pass_gen{   
+ color:  rgba(126, 124, 137, 1);  
+ font-family: Monospaceland;
+ font-size: 19px;
+ font-weight: 700;
+ line-height: 24px;
+ letter-spacing: 0.048em;
+ text-align: left;
+ position: absolute;
+ width: 232px;
+ height: 21px;
+ left: 44%;
+ top: 119px;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 38%;
+    height: 7%;
+    background: #24232B;
+    left: 31.25%;
+    top: 21%;
+}
+
+#pass{
+    position: absolute;
+    width: 38%;
+    height: 51%;
+    color: rgba(83, 82, 90, 1);
+    left: 4.25%;
+    top: 30%;
+    font-size: 22px;
+    font-family: Recursive;
+    letter-spacing: 0.008em;
+}
+
+#copy{
+    position: absolute;
+    background-image: url('Vector.png');
+    background-repeat: no-repeat;
+    width: 4%;
+    height: 50%;
+    background-color:  #24232B;
+    border: none;
+    top: 30%;
+    right: 1%;
+    left: 93%;
+    cursor: pointer;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 38%;
+    height: 51%;
+    background: #24232B;
+    left: 31.25%;
+    top: 29%;
+}
+
+#char_len{
+ position: absolute;
+ top: 5%;
+ left: 5.5%;
+ color: rgba(255, 255, 255, 1);
+ font-family: Monospaceland;
+ font-size: 17px;
+ font-weight: 700;
+ line-height: normal;
+ letter-spacing: 0.008em;
+ text-align: left;
+}    
+
+#slider{
+    position: absolute;
+    width: 90%;
+    height: 2%;
+    left: 4.5%;
+    top: 16.2%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    
+    border-radius: 5px;
+    background:#0b0b0d;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#slider::-ms-fill-lower{
+    background-color: #A4FFAF;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    border: 2px solid #EDECF4;
+    background: #E6E5EB;
+    cursor: pointer;
+    
+}
+  
+#slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+#slider-value{
+    position: absolute;
+    right: 3%;
+    top: 4.5%;
+    color: #A4FFAF;
+    font-size: 29px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.232px;
+}
+
+
+
+/* .custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox label {
+    display: absolute;
+    width: 0%;
+    height: 14px;
+    border: 2px solid #ccc;
+    top: 101px;
+    left: 15px;
+    transition: all 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"]:checked +label {
+
+    background-color: rgba(164, 255, 175, 1); 
+    border-color: rgba(164, 255, 175, 1); 
+} */
+
+
+#rectangle3{
+    position: absolute;
+    width: 90% ;
+    height: 15%;
+    top: 62%;
+    left: 5%;
+    background: rgba(24, 23, 31, 1);
+}
+
+.str{
+    position: absolute;
+    width: 90% ;
+    height: 15%;
+    top: 36%;
+    left: 13px;
+    color: #82808E;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px
+}
+
+#generate{
+    position: absolute;
+    width: 90% ;
+    height: 15%;
+    top: 81%;
+    left: 5%;
+    background: rgba(164, 255, 175, 1);
+    cursor: pointer; 
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.339px;
+}
+
+.script {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    top: 29%;
+    left: 7%;
+
+    color: #FFF;
+    font-size: 16px;
+    font-family: Monospaceland;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.432px;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.geekmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 13px;
+    background-color:transparent;
+    border: 2px solid #FFF;
+}
+
+.script input:checked ~ .geekmark {
+    background-color: #A4FFAF;
+}
+
+.geekmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.script input:checked ~ .geekmark:after {
+    display: block;
+}
+
+.box.colored {
+    background-color:  #A4FFAF;
+}
+
+.smallboxes{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}
+
+.box{
+    display: flex;
+    width: 5px;
+    height: 22px;
+    flex-shrink: 0;
+    border: 2.1px solid #FFF;
+    margin: 2px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD_GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+
+    <div class="pass_gen">Password Generator</div>
+    <div class="rectangle1">
+            <button id="copy" ></button>
+            <div id="pass">P4$5W0rD!</div>
+    </div>
+     <div class="rectangle2">
+      <div id="char_len">Character Length</div>
+            
+      <input type="range" id="slider"  min="0" max="10" value="0"  >
+      <span  id="slider-value">0</span>
+
+
+    <!-- <div class="custom-checkbox">
+
+    <input type="checkbox" id="uppercase" checked>
+    <label for="uppercase" class="script">Include Uppercase Letters</label>
+
+    <input type="checkbox" id="lowercase" checked>
+    <label for="lowercase" class="script">Include Lowercase Letters</label>
+
+    <input type="checkbox" id="numbers" checked>
+    <label for="numbers" class="script">Include Numbers</label>
+
+    <input type="checkbox" id="symbols" checked>
+    <label for="symbols" class="script">Include Symbols</label>
+    
+    </div>  -->
+
+
+       <label class="script" >
+          Include Uppercase Letters
+          <input type="checkbox" id="includeUppercase">
+          <span class="geekmark"></span>
+       </label>
+            
+       <label class="script"  >
+          Include Lowercase Letters
+          <input type="checkbox" id="includeLowercase" >
+          <span class="geekmark"></span>
+       </label>
+
+       <label class="script"  >
+          Include Numbers
+          <input type="checkbox" id="includeNumbers">
+          <span class="geekmark"></span>
+       </label>
+
+       <label class="script" >
+          Include Symbols
+          <input type="checkbox" id="includeSymbols">
+          <span class="geekmark"></span>
+       </label>
+
+
+
+     <div id="rectangle3">
+      <div class="str">STRENGTH</div>
+        <div class="smallboxes">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+     </div>
+     
+        <button id="generate">GENERATE →</button>
+
+
+     </div>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
